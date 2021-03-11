@@ -177,3 +177,15 @@ Installing Docker.:: Javascript
     See 'docker run --help'.
 
     (ver3.7) connorstom@penguin:~$ 
+
+Getting started with Sphinx
+-------------------------------
+
+Gitlab CI with Docker and Sphinx
+
+https://ci-setup-docs.readthedocs.io/en/latest/Sphinxgettingstarted.html
+
+Run this :: Javascript
+
+    sphinx-quickstart
+
