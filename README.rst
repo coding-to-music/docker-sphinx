@@ -1,6 +1,45 @@
 docker-sphinx
 =================
 
+Using Sphinx and Docker 
+
+Getting started with Sphinx
+-------------------------------
+
+Gitlab CI with Docker and Sphinx
+
+https://ci-setup-docs.readthedocs.io/en/latest/Sphinxgettingstarted.html
+
+Run this :: Javascript
+
+    sphinx-quickstart
+
+VSCode has a page: Create a development container
+---------------------------------------------------------------
+
+:: Javascript
+   
+    mkdir .devcontainer
+    connorstom@penguin:~/ap/docker-sphinx$ code .devcontainer/devcontainer.json
+
+
+https://code.visualstudio.com/docs/remote/create-dev-container
+
+Using a digitalocean droplet as a remote development environment
+-------------------------------------------------------------------
+
+Tasks needed: 
+
+- SSH keys
+- GitHub keys
+- Connect via vscode
+- Clone a repo in the droplet
+- Make a build
+
+
+
+
+
 Here is the directory structure.::
 
     connorstom@penguin:~/aprojects/coding-to-music.github.io$ tree -d -L 2
@@ -177,26 +216,4 @@ Installing Docker.:: Javascript
     See 'docker run --help'.
 
     (ver3.7) connorstom@penguin:~$ 
-
-Getting started with Sphinx
--------------------------------
-
-Gitlab CI with Docker and Sphinx
-
-https://ci-setup-docs.readthedocs.io/en/latest/Sphinxgettingstarted.html
-
-Run this :: Javascript
-
-    sphinx-quickstart
-
-VSCode has a page: Create a development container
----------------------------------------------------------------
-
-:: Javascript
-   
-    mkdir .devcontainer
-    connorstom@penguin:~/ap/docker-sphinx$ code .devcontainer/devcontainer.json
-
-
-https://code.visualstudio.com/docs/remote/create-dev-container
 
