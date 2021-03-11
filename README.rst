@@ -36,9 +36,27 @@ Tasks needed:
 - Clone a repo in the droplet
 - Make a build
 
+create/modify the file .devcontainer.devcontainer.json :: Javascript
 
+    # create/modify the file .devcontainer.devcontainer.json
 
+    {
+    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-12",
+    "extensions": ["dbaeumer.vscode-eslint"],
+    "forwardPorts": [3000]
+    }
 
+Tutorial: VSCode - Remote development in Containers
+-----------------------------------------------------
+
+https://code.visualstudio.com/docs/remote/containers-tutorial
+
+Tutorial Steps: :: Javascript
+
+    connorstom@penguin:~/ap/docker-sphinx$ eval "$(ssh-agent -s)"
+    Agent pid 3103
+    connorstom@penguin:~/ap/docker-sphinx$ docker --version
+    Docker version 20.10.5, build 55c4c88
 
 Here is the directory structure.::
 
