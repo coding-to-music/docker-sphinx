@@ -189,3 +189,14 @@ Run this :: Javascript
 
     sphinx-quickstart
 
+VSCode has a page: Create a development container
+---------------------------------------------------------------
+
+:: Javascript
+   
+    mkdir .devcontainer
+    connorstom@penguin:~/ap/docker-sphinx$ code .devcontainer/devcontainer.json
+
+
+https://code.visualstudio.com/docs/remote/create-dev-container
+
