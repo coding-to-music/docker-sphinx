@@ -1,7 +1,7 @@
 docker-sphinx
 =================
 
-Here is the directory structure.::
+Here is the directory structure.::Python
 
     connorstom@penguin:~/aprojects/coding-to-music.github.io$ tree -d -L 2
     .
@@ -136,6 +136,7 @@ Here is the directory structure.::
     Setting up docker-ce-rootless-extras (5:20.10.5~3-0~debian-buster) ...
     Processing triggers for man-db (2.8.5-2) ...
     Processing triggers for systemd (241-7~deb10u4) ...
+
     (ver3.7) connorstom@penguin:~$ sudo docker run hello-world
     Unable to find image 'hello-world:latest' locally
     latest: Pulling from library/hello-world
@@ -167,4 +168,5 @@ Here is the directory structure.::
     (ver3.7) connorstom@penguin:~$ docker run -it ubuntu bash
     docker: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/create: dial unix /var/run/docker.sock: connect: permission denied.
     See 'docker run --help'.
+
     (ver3.7) connorstom@penguin:~$ 
