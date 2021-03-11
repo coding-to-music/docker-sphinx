@@ -18,21 +18,7 @@ Here is the directory structure.::
 
 
 
-Installing Docker.::Python
-
-    connorstom@penguin:~/aprojects/coding-to-music.github.io$ tree -d -L 2
-    .
-    ├── docs
-    │   ├── build
-    │   ├── source
-    ├── images
-    └── ver3.7
-        ├── bin
-        ├── include
-        ├── lib
-        ├── lib64 -> lib
-        └── share
-
+Installing Docker.:: Javascript
 
     (ver3.7) connorstom@penguin:~$ sudo apt-get install \
     >     apt-transport-https \
@@ -84,10 +70,13 @@ Installing Docker.::Python
     0 added, 0 removed; done.
     Running hooks in /etc/ca-certificates/update.d...
     done.
+
     (ver3.7) connorstom@penguin:~$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    
     (ver3.7) connorstom@penguin:~$ echo \
     >   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
     >   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
     (ver3.7) connorstom@penguin:~$ sudo apt-get update
     Get:1 https://download.docker.com/linux/debian buster InRelease [44.4 kB]
     Ign:2 https://storage.googleapis.com/cros-packages/88 buster InRelease                                                                          
@@ -98,6 +87,7 @@ Installing Docker.::Python
     Get:7 https://download.docker.com/linux/debian buster/stable amd64 Packages [17.8 kB]
     Fetched 62.2 kB in 2s (37.7 kB/s)
     Reading package lists... Done
+
     (ver3.7) connorstom@penguin:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io
     Reading package lists... Done
     Building dependency tree       
