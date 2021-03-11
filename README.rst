@@ -1,7 +1,24 @@
 docker-sphinx
 =================
 
-Here is the directory structure.::Python
+Here is the directory structure.::
+
+    connorstom@penguin:~/aprojects/coding-to-music.github.io$ tree -d -L 2
+    .
+    ├── docs
+    │   ├── build
+    │   ├── source
+    ├── images
+    └── ver3.7
+        ├── bin
+        ├── include
+        ├── lib
+        ├── lib64 -> lib
+        └── share
+
+
+
+Installing Docker.::Python
 
     connorstom@penguin:~/aprojects/coding-to-music.github.io$ tree -d -L 2
     .
